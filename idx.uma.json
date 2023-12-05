@@ -1,0 +1,28 @@
+{
+    "SearchCriteria": {
+        "DateFrom": "05/12/2020",
+        "DateTo": "05/12/2023",
+        "Keyword": null,
+        "Type": null,
+        "Language": null,
+        "indexfrom": 1,
+        "pagesize": 9999
+    },
+    "ResultCount": 734,
+    "Results": [
+        {
+            "Judul": "Pembukaan Kembali Perdagangan Saham PT Graha Layar Prima Tbk (BLTZ)",
+            "Kode": "BLTZ",
+            "Date": "2023-11-30T07:09:10.827",
+            "Info_Type": "UPT",
+            "Data_Download": "/Portals/0/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/Exchange/2023/NOV/20231130-WAS_Unsuspensi_BLTZ.pdf"
+        },
+        {
+            "Judul": "Penghentian Sementara Perdagangan Saham PT Graha Layar Prima Tbk (BLTZ)",
+            "Kode": "BLTZ",
+            "Date": "2023-11-29T06:25:29.587",
+            "Info_Type": "SPT",
+            "Data_Download": "/Portals/0/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/Exchange/2023/NOV/20231129-WAS_Suspensi_BLTZ.pdf"
+        }
+    ]
+}
