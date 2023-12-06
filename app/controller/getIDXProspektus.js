@@ -1,7 +1,7 @@
 import { Builder, By, until } from 'selenium-webdriver';
 import fs from 'fs';
 import path from 'path';
-import { UMA } from '../models/index.js';
+import { Prospektus } from '../models/index.js';
 import chrome from 'selenium-webdriver/chrome.js';
 import convertToTanggalBulan from '../lib/UMADate.js';
 
@@ -65,7 +65,7 @@ const saveData = async (data) => {
         const fileName = item.UMAID + '.pdf';
         await downloadFile(item.Prospectus, downloadFolder, fileName);
         const filePath = item.Prospectus.split('/').pop();;
-        await UMA.create({
+        await Prospektus.create({
             Tanggal : convertToTanggalBulan(item.UMADate),
             Judul : item.Description,
             Attachment: downloadFolder+"/"+filePath

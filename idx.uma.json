@@ -1,28 +1,38 @@
 {
-    "SearchCriteria": {
-        "DateFrom": "05/12/2020",
-        "DateTo": "05/12/2023",
-        "Keyword": null,
-        "Type": null,
-        "Language": null,
-        "indexfrom": 1,
-        "pagesize": 9999
+    "Search": {
+    "ReportType": "rda",
+    "KodeEmiten": null,
+    "Year": "2023",
+    "SortColumn": "KodeEmiten",
+    "SortOrder": "asc",
+    "EmitenType": "s",
+    "Periode": "tw1",
+    "indexfrom": 1,
+    "pagesize": 12
     },
-    "ResultCount": 734,
+    "ResultCount": 7,
     "Results": [
-        {
-            "Judul": "Pembukaan Kembali Perdagangan Saham PT Graha Layar Prima Tbk (BLTZ)",
-            "Kode": "BLTZ",
-            "Date": "2023-11-30T07:09:10.827",
-            "Info_Type": "UPT",
-            "Data_Download": "/Portals/0/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/Exchange/2023/NOV/20231130-WAS_Unsuspensi_BLTZ.pdf"
-        },
-        {
-            "Judul": "Penghentian Sementara Perdagangan Saham PT Graha Layar Prima Tbk (BLTZ)",
-            "Kode": "BLTZ",
-            "Date": "2023-11-29T06:25:29.587",
-            "Info_Type": "SPT",
-            "Data_Download": "/Portals/0/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/Exchange/2023/NOV/20231129-WAS_Suspensi_BLTZ.pdf"
-        }
+    {
+    "KodeEmiten": "ALMI",
+    "File_Modified": "2022-03-19T15:19:37.303",
+    "Report_Period": null,
+    "Report_Year": "2023",
+    "NamaEmiten": "Alumindo Light Metal Industry Tbk",
+    "Attachments": [
+    {
+    "Emiten_Code": "ALMI",
+    "File_ID": "5b39ee73-8da5-4217-a6e2-c0659bc82f53",
+    "File_Modified": "2022-03-19T15:19:37.303",
+    "File_Name": "Test-20220321_AHAP_Penyampaian Bukti Iklan_31068271_lamp1.pdf",
+    "File_Path": "/Portals/0/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202203/e7ad765ebb_37e6bab4e4.pdf",
+    "File_Size": 0,
+    "File_Type": ".pdf",
+    "Report_Period": null,
+    "Report_Type": "rda",
+    "Report_Year": "2023",
+    "NamaEmiten": "Alumindo Light Metal Industry Tbk"
+    }
     ]
-}
+    }
+    ]
+    }

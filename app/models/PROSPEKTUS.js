@@ -1,10 +1,10 @@
 import { DataTypes } from 'sequelize';
 import DB from '../config/DB.js';
 
-const Suspensi = DB.define('Suspensi', {
+const Prospektus = DB.define('Prospektus', {
     Tanggal: DataTypes.STRING,
     Attachment: DataTypes.STRING,
     Judul: DataTypes.STRING
 });
 
-export default Suspensi;
+export default Prospektus;

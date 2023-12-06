@@ -1,11 +1,11 @@
 import { Builder, By, until } from 'selenium-webdriver';
 import fs from 'fs';
 import path from 'path';
-import { UMA } from '../models/index.js';
+import { FinancialReport } from '../models/index.js';
 import chrome from 'selenium-webdriver/chrome.js';
 import convertToTanggalBulan from '../lib/UMADate.js';
 
-const waitForFileDownload = async (filePath, timeout = 5000) => {
+const waitForFileDownload = async (filePath, timeout = 15000) => {
     let timeSpent = 0;
     const checkInterval = 500; // Check every 500 ms
 
@@ -29,16 +29,15 @@ const downloadFile = async (url, downloadFolder,fileName) => {
         'download.prompt_for_download': false,
         'download.directory_upgrade': true,
         'safebrowsing.enabled': false,
-        'plugins.always_open_pdf_externally': true // Disable Chrome's PDF Viewer
+        'plugins.always_open_pdf_externally': true 
     });
 
     const driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
     
     try {
-        await driver.get(url); // Navigate to the URL of the PDF file
+        await driver.get(url); 
         await driver.wait(until.elementLocated(By.css('body')), 10000);
 
-        // Construct the full path for the file
         const filePath = path.join(downloadFolder, fileName);
         const fileDownloaded = await waitForFileDownload(filePath);
 
@@ -55,45 +54,61 @@ const downloadFile = async (url, downloadFolder,fileName) => {
     }
 };
 
-const saveData = async (data) => {
-    const downloadFolder = ('./downloads/UMA');
+const saveFinancialReportData = async (data) => {
+    const downloadFolder = path.resolve('./downloads/FinancialReports');
 
     if (!fs.existsSync(downloadFolder)){
-        fs.mkdirSync(downloadFolder);
+        fs.mkdirSync(downloadFolder, { recursive: true });
     }
 
     for (const item of data.Results) {
-        const fileName = item.UMAID + '.pdf';
-        await downloadFile('https://www.idx.co.id' + item.Attachment, downloadFolder, fileName);
-        const filePath = item.Attachment.split('/').pop();;
-        await UMA.create({
-            UMAID : item.UMAID,
-            Tanggal : convertToTanggalBulan(item.UMADate),
-            Judul : item.Judul,
-            Attachment: downloadFolder+"/"+filePath
-        });
+        // Iterate through attachments if there are multiple
+        for (const attachment of item.Attachments) {
+            const filePath = path.join(downloadFolder, attachment.File_Name);
+            const fileDownloaded = await downloadFile('https://www.idx.co.id' + attachment.File_Path, downloadFolder, attachment.File_Name);
+
+            if (fileDownloaded) {
+                await FinancialReport.create({
+                    ReportID: attachment.File_ID, // Use File_ID as the unique identifier
+                    EmitenCode: item.KodeEmiten,
+                    ReportYear: item.Report_Year,
+                    NamaEmiten: item.NamaEmiten,
+                    Attachment: filePath,
+                    Tanggal: new Date(attachment.File_Modified) // Convert the string to a Date object
+                });
+            }
+        }
     }
 };
 
-const getUMA = async () => {
+const getFinanceReport = async () => {
     let options = new chrome.Options();
-   // options.addArguments({'headless' : 'new'});
+    // options.addArguments('headless'); // Uncomment to run in headless mode
+    options.addArguments('disable-gpu');
+    options.setUserPreferences({
+        'download.prompt_for_download': false,
+        'download.directory_upgrade': true,
+        'safebrowsing.enabled': false,
+        'plugins.always_open_pdf_externally': true
+    });
+
     const driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
 
     try {
-        await driver.get('https://www.idx.co.id/primary/NewsAnnouncement/GetUma?indexFrom=1&dateFrom=&dateTo=&lang=id&pageSize=9999');
+        const url = 'https://www.idx.co.id/primary/ListedCompany/GetFinancialReport?indexFrom=1&pageSize=12&year=2023&reportType=rda&EmitenType=s&periode=tw1&kodeEmiten=&SortColumn=KodeEmiten&SortOrder=asc';
+        await driver.get(url);
         let data = await driver.wait(until.elementLocated(By.css('body')), 10000);
         data = await data.getAttribute('innerText');
         const parsedData = JSON.parse(data);
 
-        await saveData(parsedData);
+        await saveFinancialReportData(parsedData);
     } catch (error) {
-        console.error('Error fetching and saving data:', error);
+        console.error('Error fetching and saving financial report data:', error);
     } finally {
         await driver.quit();
     }
 };
 
+export { getFinanceReport };
 
 
-export { getUMA };

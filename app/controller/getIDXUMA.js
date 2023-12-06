@@ -1,7 +1,7 @@
 import { Builder, By, until } from 'selenium-webdriver';
 import fs from 'fs';
 import path from 'path';
-import { Suspensi } from '../models/index.js';
+import { UMA } from '../models/index.js';
 import chrome from 'selenium-webdriver/chrome.js';
 import convertToTanggalBulan from '../lib/UMADate.js';
 
@@ -55,7 +55,7 @@ const downloadFile = async (url, downloadFolder,fileName) => {
 };
 
 const saveData = async (data) => {
-    const downloadFolder = ('./downloads/suspensi');
+    const downloadFolder = ('./downloads/UMA');
 
     if (!fs.existsSync(downloadFolder)){
         fs.mkdirSync(downloadFolder);
@@ -63,23 +63,24 @@ const saveData = async (data) => {
 
     for (const item of data.Results) {
         const fileName = item.UMAID + '.pdf';
-        await downloadFile('https://www.idx.co.id' + item.Data_Download, downloadFolder, fileName);
-        const filePath = item.Data_Download.split('/').pop();;
-        await Suspensi.create({
-            Tanggal : convertToTanggalBulan(item.Date),
+        await downloadFile('https://www.idx.co.id' + item.Attachment, downloadFolder, fileName);
+        const filePath = item.Attachment.split('/').pop();;
+        await UMA.create({
+            UMAID : item.UMAID,
+            Tanggal : convertToTanggalBulan(item.UMADate),
             Judul : item.Judul,
             Attachment: downloadFolder+"/"+filePath
         });
     }
 };
 
-const getSuspensi = async () => {
+const getUMA = async () => {
     let options = new chrome.Options();
    // options.addArguments({'headless' : 'new'});
     const driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
 
     try {
-        await driver.get('https://www.idx.co.id/primary/NewsAnnouncement/GetSuspension?indexFrom=1&dateFrom=&dateTo=&pageSize=9999&lang=id');
+        await driver.get('https://www.idx.co.id/primary/NewsAnnouncement/GetUma?indexFrom=1&dateFrom=&dateTo=&lang=id&pageSize=9999');
         let data = await driver.wait(until.elementLocated(By.css('body')), 10000);
         data = await data.getAttribute('innerText');
         const parsedData = JSON.parse(data);
@@ -94,4 +95,4 @@ const getSuspensi = async () => {
 
 
 
-export { getSuspensi };
+export { getUMA };
