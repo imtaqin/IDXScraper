@@ -5,6 +5,8 @@ const Suspensi = DB.define('Suspensi', {
     Tanggal: DataTypes.STRING,
     Attachment: DataTypes.STRING,
     Judul: DataTypes.STRING
-});
+},{
+    freezeTableName: true
+  });
 
 export default Suspensi;

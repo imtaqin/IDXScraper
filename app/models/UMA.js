@@ -6,6 +6,8 @@ const UMA = DB.define('UMA', {
     Tanggal: DataTypes.STRING,
     Attachment: DataTypes.STRING,
     Judul: DataTypes.STRING
-});
+},{
+    freezeTableName: true
+  });
 
 export default UMA;

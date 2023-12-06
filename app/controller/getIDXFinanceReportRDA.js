@@ -1,11 +1,11 @@
 import { Builder, By, until } from 'selenium-webdriver';
 import fs from 'fs';
 import path from 'path';
-import { FinancialReport } from '../models/index.js';
+import { FinancialReportRDA } from '../models/index.js';
 import chrome from 'selenium-webdriver/chrome.js';
 import convertToTanggalBulan from '../lib/UMADate.js';
 
-const waitForFileDownload = async (filePath, timeout = 15000) => {
+const waitForFileDownload = async (filePath, timeout = 7000) => {
     let timeSpent = 0;
     const checkInterval = 500; // Check every 500 ms
 
@@ -55,33 +55,30 @@ const downloadFile = async (url, downloadFolder,fileName) => {
 };
 
 const saveFinancialReportData = async (data) => {
-    const downloadFolder = path.resolve('./downloads/FinancialReports');
+    const downloadFolder = path.resolve('./downloads/FinancialReportsRDA');
 
     if (!fs.existsSync(downloadFolder)){
         fs.mkdirSync(downloadFolder, { recursive: true });
     }
 
     for (const item of data.Results) {
-        // Iterate through attachments if there are multiple
         for (const attachment of item.Attachments) {
-            const filePath = path.join(downloadFolder, attachment.File_Name);
+            const filePath = attachment.File_Path.split('/').pop();
             const fileDownloaded = await downloadFile('https://www.idx.co.id' + attachment.File_Path, downloadFolder, attachment.File_Name);
+console.log()
+                await FinancialReportRDA.create({
+                    EmitenCode : attachment.Emiten_Code,
 
-            if (fileDownloaded) {
-                await FinancialReport.create({
-                    ReportID: attachment.File_ID, // Use File_ID as the unique identifier
-                    EmitenCode: item.KodeEmiten,
-                    ReportYear: item.Report_Year,
                     NamaEmiten: item.NamaEmiten,
-                    Attachment: filePath,
-                    Tanggal: new Date(attachment.File_Modified) // Convert the string to a Date object
+                    Attachment: downloadFolder+"/"+filePath,
+                    Tanggal: convertToTanggalBulan(attachment.File_Modified) // Convert the string to a Date 
                 });
-            }
+            
         }
     }
 };
 
-const getFinanceReport = async () => {
+const getFinanceReportRDA = async () => {
     let options = new chrome.Options();
     // options.addArguments('headless'); // Uncomment to run in headless mode
     options.addArguments('disable-gpu');
@@ -109,6 +106,6 @@ const getFinanceReport = async () => {
     }
 };
 
-export { getFinanceReport };
+export { getFinanceReportRDA };
 
 
