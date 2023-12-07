@@ -47,6 +47,20 @@ async function scrapeGoogleNews() {
                 console.log(`Title: ${title}`);
                 console.log(`Meta Description: ${metaDescription}`);
                 console.log('---------------------------------');
+            }else if(link.includes("idxchannel.com")){
+                const featuredImageElement = await driver.findElement(By.css('img.caption.caption-article'));
+                const featuredImageUrl = await featuredImageElement.getAttribute('src');
+                const absoluteImageUrl = new URL(featuredImageUrl, url).href; // Converts relative URL to absolute URL
+        
+                // Scrape the article content
+                let articleContent = '';
+                const contentElements = await driver.findElements(By.css('section.entry-content p'));
+                for (const element of contentElements) {
+                    const elementText = await element.getText();
+                    articleContent += elementText + '\n';
+                }
+                console.log(`Featured Image URL: ${absoluteImageUrl}`);
+                console.log(`Article Content:\n${articleContent}`);
             }
             }
     } finally {
