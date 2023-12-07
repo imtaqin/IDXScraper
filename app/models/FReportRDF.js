@@ -6,7 +6,7 @@ const FinancialReportRDF = DB.define('FinancialReportRDF', {
     EmitenCode: DataTypes.STRING,
     NamaEmiten: DataTypes.STRING,
     Attachment: DataTypes.STRING,
-    Tanggal: DataTypes.STRING // Changed to DATE type for actual date handling
+    Tanggal: DataTypes.STRING 
 },
 {
     freezeTableName: true

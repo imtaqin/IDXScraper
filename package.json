@@ -4,6 +4,7 @@
     "cloudflare-scraper": "^2.0.0",
     "dotenv": "^16.3.1",
     "mysql2": "^3.6.5",
+    "node-cron": "^3.0.3",
     "puppeteer": "^21.5.2",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-user-preferences": "^2.4.1",

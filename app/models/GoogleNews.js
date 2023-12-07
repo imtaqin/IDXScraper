@@ -6,7 +6,7 @@ const GoogleNews = DB.define('GoogleNews', {
     Judul: DataTypes.STRING,
     Deskripsi: DataTypes.STRING,
     Image: DataTypes.STRING,
-    Content: DataTypes.STRING
+    Content: DataTypes.TEXT
 },{
     freezeTableName: true
   });

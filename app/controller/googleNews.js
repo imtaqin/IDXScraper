@@ -1,6 +1,6 @@
-import { Builder, By, until } from 'selenium-webdriver';
+import { Builder, By, error, until } from 'selenium-webdriver';
 import chrome from 'selenium-webdriver/chrome.js';
-import { scrapePasardana,scrapeIdxChannel } from '../lib/IDXMods.js';
+import { scrapePasardana,scrapeIdxChannel,scrapeCnbcIndonesia,scrapeInvestorDaily ,scrapeBisniscom,defaultGet} from '../lib/IDXMods.js';
 import GoogleNews from '../models/GoogleNews.js';
 
 async function scrapeGoogleNews() {
@@ -30,13 +30,29 @@ async function scrapeGoogleNews() {
                 article = await scrapeIdxChannel(driver);
             } else if(link.includes("pasardana.id")){
                 article =  await scrapePasardana(driver);
+            }else if(link.includes("cnbcindonesia.com")){
+                article =  await scrapeCnbcIndonesia(driver);
+            }else if(link.includes("investor.id")){
+                article =  await scrapeInvestorDaily(driver);
+            }else if(link.includes("bisnis.com")){
+                article =  await scrapeBisniscom(driver);
+            }else{
+                article =  await defaultGet(driver);
             }
 
             console.log(`Title: ${title}`);
             console.log(`Meta Description: ${metaDescription}`);
-            console.log(article)
             console.log('---------------------------------');
+            await GoogleNews.create({
+                Judul : title,
+                Links : link,
+                Deskripsi : metaDescription,
+                Image :article.featuredImage,
+                Content : article.articleContent
+            })
         }
+    }catch(eror){
+        console.log(error);
     } finally {
         await driver.quit();
     }
