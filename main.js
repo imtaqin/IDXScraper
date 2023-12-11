@@ -8,12 +8,7 @@ import cron from "node-cron";
 import { getUMA } from "./app/controller/getIDXUMA.js";
 
 synchronizeModels();
-getFinanceReportRDA();
-getFinanceReportRDF();
-scrapeGoogleNews();
-getIDXProspektus();
-getUMA();
-getSuspensi();
+scrapeGoogleNews("auto")
 
 cron.schedule("0 12,17 * * *", () => {
   console.log(" ======== Mulai scrape Laporan Keuangan ================");
@@ -21,9 +16,13 @@ cron.schedule("0 12,17 * * *", () => {
   getFinanceReportRDF();
 });
 
-cron.schedule("0 7,11,13,15,17,20 * * *", () => {
+cron.schedule("0 7,11,13,15,17,20 * * *", async () => {
   console.log(" ======== Mulai scrape Google News ================");
-  scrapeGoogleNews();
+  const kode = await Perusahaan.findAll();
+
+  for (const link of kode) {
+    await scrapeGoogleNews(link.KODE)
+  }
 });
 
 cron.schedule("0 12,17 * * *", () => {

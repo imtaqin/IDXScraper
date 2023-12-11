@@ -1,113 +1,98 @@
-import { By } from 'selenium-webdriver';
-async function scrapeIdxChannel(driver) {
-    const featuredImage = await driver.findElement(By.css('div.article--image img')).getAttribute('src');
-    let articleContent = '';
-    const contentElements = await driver.findElements(By.css('div.article--content p'));
-    for (const element of contentElements) {
-        const elementText = await element.getText();
-        articleContent += elementText + '\n';
-    }
+import puppeteer from 'puppeteer';
+import fs from 'fs';
+import path from 'path';
 
-    return {
-        featuredImage,articleContent
-    }
+async function downloadImage(page, url, filePath) {
+    const viewSource = await page.goto(url);
+    const buffer = await viewSource.buffer();
+    fs.writeFileSync(filePath, buffer);
 }
 
-async function scrapePasardana(driver) {
-    const featuredImageElement = await driver.findElement(By.css('img.caption.caption-article'));
-    const featuredImageUrl = await featuredImageElement.getAttribute('src');
-    
-    const currentUrl = await driver.getCurrentUrl();
+
+async function scrapeIdxChannel(page) {
+    const featuredImageUrl = await page.$eval('.appimage', img => img.src);
+
+    const currentUrl = page.url();
     const featuredImage = new URL(featuredImageUrl, currentUrl).href;
 
-    let articleContent = '';
-    const contentElements = await driver.findElements(By.css('section.entry-content p'));
-    for (const element of contentElements) {
-        const elementText = await element.getText();
-        articleContent += elementText + '\n';
-    }
+    let articleContent = await page.$$eval('.content > .text-body--3 p', elements => 
+        elements.map(element => element.innerText).join('\n'));
 
-    return {
-        featuredImage, articleContent
-    };
+        const imageName = path.basename(new URL(featuredImage).pathname);
+        const imagePath = path.join('assets', imageName);
+        await downloadImage(page, featuredImage, imagePath);
+    
+        return { featuredImage: featuredImageUrl,pathimage :imagePath,  articleContent };
 }
 
+async function scrapePasardana(page) {
+    const featuredImageUrl = await page.$eval('img.caption.caption-article', img => img.src);
+    const currentUrl = page.url();
+    const featuredImage = new URL(featuredImageUrl, currentUrl).href;
+    let articleContent = await page.$$eval('section.entry-content p', elements => elements.map(element => element.innerText).join('\n'));
 
-async function scrapeCnbcIndonesia(driver) {
-    // Scrape the featured image URL
-    const featuredImageElement = await driver.findElement(By.css('.media_artikel img'));
-    const featuredImageUrl = await featuredImageElement.getAttribute('src');
+    const imageName = path.basename(new URL(featuredImage).pathname);
+    const imagePath = path.join('assets', imageName);
+    await downloadImage(page, featuredImage, imagePath);
 
-    // Scrape the article content
-    let articleContent = '';
-    const contentElements = await driver.findElements(By.css('.detail_text p'));
-    for (const element of contentElements) {
-        const elementText = await element.getText();
-        articleContent += elementText + '\n';
-    }
-
-    return {
-        featuredImage: featuredImageUrl,
-        articleContent
-    };
-}
-async function scrapeInvestorDaily(driver) {
-    // Scrape the featured image URL
-    const featuredImageElement = await driver.findElement(By.css('body > main > div > div.row > div.col > div.rounded-3.overflow-hidden.mb-2 > img'));
-    const featuredImageUrl = await featuredImageElement.getAttribute('src');
-
-    // Scrape the article content
-    let articleContent = '';
-    const contentElements = await driver.findElements(By.css('body > main > div > div.row > div.col > div.row.mt-3 > div p'));
-    for (const element of contentElements) {
-        const elementText = await element.getText();
-        articleContent += elementText + '\n';
-    }
-
-    return {
-        featuredImage: featuredImageUrl,
-        articleContent
-    };
+    return { featuredImage: featuredImageUrl, pathimage: imagePath, articleContent };
 }
 
-async function scrapeBisniscom(driver) {
-    // Scrape the featured image URL
-    const featuredImageElement = await driver.findElement(By.css('#pswp-gallery > div.container.mt50 > div > div.col-7.col-left > div.detailsCover.-left > figure > a > img'));
-    const featuredImageUrl = await featuredImageElement.getAttribute('src');
+async function scrapeCnbcIndonesia(page) {
+    const featuredImageUrl = await page.$eval('.media_artikel img', img => img.src);
+    const currentUrl = page.url();
+    const featuredImage = new URL(featuredImageUrl, currentUrl).href;
+    let articleContent = await page.$$eval('.detail_text p', elements => elements.map(element => element.innerText).join('\n'));
 
-    // Scrape the article content
-    let articleContent = '';
-    const contentElements = await driver.findElements(By.css('#pswp-gallery > div.container.mt50 > div > div.col-7.col-left > article p'));
-    for (const element of contentElements) {
-        const elementText = await element.getText();
-        articleContent += elementText + '\n';
-    }
+    const imageName = path.basename(new URL(featuredImage).pathname);
+    const imagePath = path.join('assets', imageName);
+    await downloadImage(page, featuredImage, imagePath);
 
-    return {
-        featuredImage: featuredImageUrl,
-        articleContent
-    };
+    return { featuredImage: featuredImageUrl, pathimage: imagePath, articleContent };
 }
-async function defaultGet(driver) {
-    // Scrape the featured image URL
-    const featuredImageElement = await driver.findElement(By.css('.img'));
-    const featuredImageUrl = await featuredImageElement.getAttribute('src');
 
-    // Scrape the article content
-    let articleContent = '';
+async function scrapeInvestorDaily(page) {
+    const featuredImageUrl = await page.$eval('body > main > div > div.row > div.col > div.rounded-3.overflow-hidden.mb-2 > img', img => img.src);
+    const currentUrl = page.url();
+    const featuredImage = new URL(featuredImageUrl, currentUrl).href;
+    let articleContent = await page.$$eval('body > main > div > div.row > div.col > div.row.mt-3 > div p', elements => elements.map(element => element.innerText).join('\n'));
+
+    const imageName = path.basename(new URL(featuredImage).pathname);
+    const imagePath = path.join('assets', imageName);
+    await downloadImage(page, featuredImage, imagePath);
+
+    return { featuredImage: featuredImageUrl, pathimage: imagePath, articleContent };
+}
+
+async function scrapeBisniscom(page) {
+    const featuredImageUrl = await page.$eval('#pswp-gallery > div.container.mt50 > div > div.col-7.col-left > div.detailsCover.-left > figure > a > img', img => img.src);
+    const currentUrl = page.url();
+    const featuredImage = new URL(featuredImageUrl, currentUrl).href;
+    let articleContent = await page.$$eval('#pswp-gallery > div.container.mt50 > div > div.col-7.col-left > article p', elements => elements.map(element => element.innerText).join('\n'));
+
+    const imageName = path.basename(new URL(featuredImage).pathname);
+    const imagePath = path.join('assets', imageName);
+    await downloadImage(page, featuredImage, imagePath);
+
+    return { featuredImage: featuredImageUrl, pathimage: imagePath, articleContent };
+}
+
+async function defaultGet(page) {
+    let featuredImageUrl, articleContent = '';
     try {
-        const paragraphs = await driver.findElements(By.css('p'));
-        for (const paragraph of paragraphs) {
-            articleContent += await paragraph.getText() + "\n";
-        }
+        featuredImageUrl = await page.$eval('.img', img => img.src);
+        const currentUrl = page.url();
+        const featuredImage = new URL(featuredImageUrl, currentUrl).href;
+        articleContent = await page.$$eval('p', elements => elements.map(element => element.innerText).join('\n'));
+
+        const imageName = path.basename(new URL(featuredImage).pathname);
+        const imagePath = path.join('assets', imageName);
+        await downloadImage(page, featuredImage, imagePath);
+
+        return { featuredImage: featuredImageUrl, pathimage: imagePath, articleContent };
     } catch {
-        articleContent = "Content could not be extracted";
+        return { featuredImage: 'No image found', pathimage: '', articleContent: 'Content could not be extracted' };
     }
-
-    return {
-        featuredImage: featuredImageUrl,
-        articleContent
-    };
 }
-export { scrapeIdxChannel, scrapePasardana, scrapeCnbcIndonesia,scrapeInvestorDaily ,scrapeBisniscom,defaultGet};
 
+export { scrapeIdxChannel, scrapePasardana, scrapeCnbcIndonesia, scrapeInvestorDaily, scrapeBisniscom, defaultGet };

@@ -1,62 +1,66 @@
-import { Builder, By, error, until } from 'selenium-webdriver';
-import chrome from 'selenium-webdriver/chrome.js';
-import { scrapePasardana,scrapeIdxChannel,scrapeCnbcIndonesia,scrapeInvestorDaily ,scrapeBisniscom,defaultGet} from '../lib/IDXMods.js';
+import puppeteer from 'puppeteer';
+import { scrapePasardana, scrapeIdxChannel, scrapeCnbcIndonesia, scrapeInvestorDaily, scrapeBisniscom, defaultGet } from '../lib/IDXMods.js';
 import GoogleNews from '../models/GoogleNews.js';
 
-async function scrapeGoogleNews() {
-    let driver = new Builder()
-        .forBrowser('chrome')
-        // .setChromeOptions(new chrome.Options().headless())
-        .build();
-
+async function scrapeGoogleNews(kode) {
+    let browser;
     try {
-        await driver.get('https://www.google.com/search?q=auto+idx&tbm=nws');
-        const links = await driver.findElements(By.css('a'));
-        const filteredLinks = (await Promise.all(links.map(async link => await link.getAttribute('href'))))
+        browser = await puppeteer.launch({ headless: false });
+        const page = await browser.newPage();
+        const collectLinks = async (url) => {
+            await page.goto(url, { waitUntil: 'domcontentloaded' });
+            return page.$$eval('a', anchors => anchors.map(a => a.href));
+        };
+
+        const firstPageLinks = await collectLinks(`https://www.google.com/search?q=${kode}+idx&tbm=nws`);
+        const secondPageLinks = await collectLinks(`https://www.google.com/search?q=${kode}+idx&tbm=nws&start=10`);
+        const allLinks = [...firstPageLinks, ...secondPageLinks]
             .filter(href => href && !href.includes('google'));
 
-        for (const link of filteredLinks) {
-            await driver.get(link);
-            const title = await driver.getTitle();
-            let metaDescription;
-            let article;
+        for (const link of allLinks) {
             try {
-                metaDescription = await driver.findElement(By.css('meta[name="description"]')).getAttribute('content');
-            } catch {
-                metaDescription = "No meta description found";
-            }
+                await page.goto(link, { waitUntil: 'domcontentloaded' });
+                const title = await page.title();
+                let metaDescription = await page.$eval('meta[name="description"]', element => element?.content || "No meta description found");
 
-            if(link.includes("idxchannel.com")){
-                article = await scrapeIdxChannel(driver);
-            } else if(link.includes("pasardana.id")){
-                article =  await scrapePasardana(driver);
-            }else if(link.includes("cnbcindonesia.com")){
-                article =  await scrapeCnbcIndonesia(driver);
-            }else if(link.includes("investor.id")){
-                article =  await scrapeInvestorDaily(driver);
-            }else if(link.includes("bisnis.com")){
-                article =  await scrapeBisniscom(driver);
-            }else{
-                article =  await defaultGet(driver);
-            }
+                let article;
+                if (link.includes("idxchannel.com")) {
+                    article = await scrapeIdxChannel(page);
+                } else if (link.includes("pasardana.id")) {
+                    article = await scrapePasardana(page);
+                } else if (link.includes("cnbcindonesia.com")) {
+                    article = await scrapeCnbcIndonesia(page);
+                } else if (link.includes("investor.id")) {
+                    article = await scrapeInvestorDaily(page);
+                } else if (link.includes("bisnis.com")) {
+                    article = await scrapeBisniscom(page);
+                } else {
+                    article = await defaultGet(page);
+                }
 
-            console.log(`Title: ${title}`);
-            console.log(`Meta Description: ${metaDescription}`);
-            console.log('---------------------------------');
-            await GoogleNews.create({
-                Judul : title,
-                Links : link,
-                Deskripsi : metaDescription,
-                Image :article.featuredImage,
-                Content : article.articleContent
-            })
+                console.log(`Title: ${title}`);
+                console.log(`Meta Description: ${metaDescription}`);
+                console.log('---------------------------------');
+
+                await GoogleNews.create({
+                    Judul: title,
+                    Links: link,
+                    Path : article.pathimage,
+                    Deskripsi: metaDescription,
+                    Image: article.featuredImage,
+                    Content: article.articleContent
+                });
+            } catch (error) {
+                console.log("Duplikat link");
+            }
         }
-    }catch(eror){
-        console.log(error);
+    } catch (error) {
+        console.error("Error in scraping", error);
     } finally {
-        await driver.quit();
+        if (browser) {
+            await browser.close();
+        }
     }
 }
-
 
 export { scrapeGoogleNews };
