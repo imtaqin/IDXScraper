@@ -6,10 +6,10 @@ import { getFinanceReportRDA } from "./app/controller/getIDXFinanceReportRDA.js"
 import { scrapeGoogleNews } from "./app/controller/googleNews.js";
 import cron from "node-cron";
 import { getUMA } from "./app/controller/getIDXUMA.js";
+import seedDatabase from "./app/lib/seedDomain.js";
 
 synchronizeModels();
 scrapeGoogleNews("auto")
-
 cron.schedule("0 12,17 * * *", () => {
   console.log(" ======== Mulai scrape Laporan Keuangan ================");
   getFinanceReportRDA();

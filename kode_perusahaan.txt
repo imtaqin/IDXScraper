@@ -1,0 +1,517 @@
+<div class="column-8">
+
+            <!-- S:topdetail --><center>
+<div id="banner_top_detail">
+<ins data-labelname="topdetail" data-revive-zoneid="144" data-revive-id="0cceecb9cae9f51a31123c541910d59b"></ins>
+</div>
+</center><!-- E:topdetail -->
+            <article class="detail">
+                <div class="detail__header">
+    
+    
+    <h1 class="detail__title">
+        Awas! Ini Saham-saham yang Bisa Anjlok hingga Rp 1    </h1>
+
+    <div class="detail__author">Sylke Febrina Laucereno - <span class="detail__label">detikFinance</span></div>
+    <div class="detail__date">Selasa, 31 Jan 2023 20:30 WIB</div>
+</div>
+
+                    <div class="detail__media">
+        <figure dtr-evt="cover image" dtr-sec="" dtr-act="cover image" onclick="_pt(this)" class="detail__media-image">
+     <img src="https://akcdn.detik.net.id/community/media/visual/2020/09/10/perdagangan-ihsg-disetop-usai-anjlok-5-1_169.jpeg?w=700&amp;q=90" alt="Indeks Harga Saham Gabungan (IHSG) anjlok 5% ke level 4.891. Bursa Efek Indonesia (BEI) menghentikan sementara perdagangan saham siang ini." title="Perdagangan IHSG Disetop Usai Anjlok 5%" class="p_img_zoomin img-zoomin" pinger-seen="true">
+            <figcaption class="detail__media-caption">Ilustrasi/Foto: Agung Pambudhy</figcaption>
+    </figure>
+    </div>
+
+<!-- S:inbetweenimages --> <div id="inbetween"></div>
+ <!-- /4905536/detik_desktop/finance/inbetween -->
+<div id="div-gpt-ad-1658809947573-0">
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1658809947573-0'); });
+  </script>
+</div><!-- E:inbetweenimages -->
+<div class="detail__body itp_bodycontent_wrapper">
+    <div class="detail__body-text itp_bodycontent">
+
+        <!-- S:Table of Content -->
+                <!-- E:Table of Content -->
+
+        <strong>Jakarta</strong> - <p>Saham-saham yang dianggap bermasalah dan memiliki cap khusus dari Bursa Efek Indonesia (BEI) kemungkinan bisa jatuh hingga menyentuh level Rp 1. Hal itu tertuang dalam aturan <strong>papan pemantauan khusus emiten</strong> dengan likuiditas rendah yang sudah dirilis BEI.</p><p>Dalam bahan penjelasan BEI disebutkan harga minimum di mekanisme perdagangan baru atau auto reject bawah (ARB) dalam papan pemantauan khusus emiten adalah Rp 1. Itu berlaku baik di hybrid maupun full call auction.</p><p>Sementara untuk penetapan auto rejection Rp 1 atau 10%. Pada mekanisme full call auction ini sesi call auction terdapat 5 sesi. Untuk maximum price movement tidak berlaku.</p><!--s:parallaxindetail--><div class="clearfix"></div><style>
+  @import url("https://cdnstatic.detik.com/live/_rmbassets/scrollpage/scrollpage.css");
+</style>
+<div class="parallaxindetail scrollpage" style="height:650px;background-color:#F8F8F8;">
+  <p class="para_caption" style="display:block;font-size: 9px;color: rgba(0, 0, 0, 0.55);position: relative;margin:5px;text-align: center;left: 0px;right: 0px;letter-spacing: 0.7px;">
+    ADVERTISEMENT
+  </p>
+  <div class="ads-scrollpage-container">
+    <div class="ads-scrollpage-height" style="height: 600px;width: 100%;margin: auto;">
+      <div class="ads-scrollpage-box">
+        <div class="ads-scrollpage-top" style="top:91px;">
+          <div class="ads-scrollpage-banner">
+
+            <!-- /4905536/detik_desktop/finance/parallax_detail -->
+            <div id="div-gpt-ad-1618601354128-0" style="min-width: 300px; min-height: 250px;"><iframe id="google_ads_iframe_/4905536/detik_desktop/finance/parallax_detail_1" srcdoc="<body></body>" width="0" height="0" data-load-complete="true" data-google-container-id="true" sandbox="" style="position: absolute; width: 0px; height: 0px; left: 0px; right: 0px; z-index: -1; border: 0px;"></iframe></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="para_caption" style="display:block;font-size: 9px;color: rgba(0, 0, 0, 0.55);position: relative;margin: 8px;text-align: center;left: 0px;right: 0px;letter-spacing: 0.7px;">
+    SCROLL TO CONTINUE WITH CONTENT
+  </p>
+</div><!--e:parallaxindetail--><p>Kemudian ada juga mekanisme hybrid dengan minimum price untuk metode continous auction Rp 50 dan call auction minimum Rp 1.</p><p>Untuk auto rejection 10% dan call auction Rp 1 atau 10%. Dalam continuous auction ini maximum price movement berlaku dan tak berlaku di call auction.</p><table class="linksisip"><tbody><tr><td><div class="lihatjg"><strong>Baca juga: </strong><a data-label="List Berita" data-action="Berita Pilihan" data-category="Detil Artikel" href="https://finance.detik.com/bursa-dan-valas/d-6537675/2-emiten-heru-hidayat-terancam-didepak-dari-bursa">2 Emiten Heru Hidayat Terancam Didepak dari Bursa</a></div></td></tr></tbody></table><p>Direktur Pengembangan BEI Jeffrey Hendrik menjelaskan tujuan pemasangan papan likuiditas ini salah satunya untuk perlindungan investor.</p><p>"Tujuan utama segmentasi papan adalah untuk perlindungan investor," kata dia kepada wartawan, Selasa (31/1/2023).</p><p>Dengan begitu, diharapkan para investor bisa menetapkan rencana dan strategi investasi masing-masing.</p><p>"Bagaimana sikap investor tentunya tergantung kepada rencana dan strategi investasi masing-masing investor yang tentu mempertimbangkan seluruh informasi yang ada dalam mengambil keputusan investasi," ujar dia.</p><p>Dikutip dari penjelasan BEI, papan pemantauan khusus ini bisa meningkatkan perlindungan investor, meningkatkan keterbukaan informasi perusahaan tercatat, mendukung mekanisme matching untuk saham yang kurang likuid.</p><p>Selain itu juga memberi kesempatan untuk melakukan jual atau beli saham di harga kurang dari Rp 50 dengan mekanisme perdagangan yang lebih sesuai.</p><p>Mengutip data dari laman IDX, saat ini terdapat 153 emiten yang masuk dalam pemantauan khusus. Berikut daftarnya:</p><p>IBFN, INTA, ENVY, GOLL, KBRI, MABA, LAPD, MGNA, OCAP, GTBO, GIAA, GMFI, MYRX, TIRT, AKKU, ANDI, ARGO, ARMY, ARTI, ASRM, BAPI, CMPP, CNKO, CNTX, COWL, CPRI, CTBN, CTTH, DADA, DEAL.</p><p>DEFI, DPUM, DUCK, ELTY, ETWA, FORZ, GAMA, GLOB, GMTD, HADE, HDTX, HOME, HOTL, BEEF, BIKA, BLTA, BLTZ, BSWD, BTEK, BTEL, BUVA, CANI, IIKP, IKAI, JGLE, JKSW, JSPT, KARW, KAYU, KIAS.</p><p>KPAL, KPAS, KRAH, LCGP, LCKM, MAGP, MAMI, MDIA, MDRN, MINA, MIRA, MKNT, WSBP, SUGI, TAMU, TARA, TAXI, TDPM, TELE, TFCO, TOPS, TRAM, TRIL, TRIO, UNIT, UNSP, VIVA, MTFN, MTRA, MYTX.</p><p>NIPS, NUSA, PADI, PLAS, PNSE, POLY, POOL, POSA, RIMO, RMBA, ROCK, SAFE, SBAT, SCPI, SIMA, SKYB, SMRU, SONA, SRIL, TGRA, SDMU, AYLS, PKPK, BIMA, SWAT, JSKY, DIGI, OASA, AGAR, ARKA.</p><p>BAUT, BAYU, BEKS, BRNA, CBMF, CSMI, EPAC, FASW, GEMA, HKMU, KBAG, KOTA, KREN, LMAS, LMSH, NASA, NTBK, PPRO, PTSP, PURA, PURE, REAL, RONY, SKLT, TALF, TAMA, TIFA, TIRA, TURI, WOWS KBLV, KBLV dan OMRE.</p><p></p>
+		
+        <strong>(kil/das)</strong>
+        <div class="detail__body-tag mgt-16">
+            <div class="nav">
+                				<a class="nav__item" dtr-evt="tag" dtr-sec="" dtr-act="tag" onclick="_pt(this)" dtr-idx=" 1" dtr-ttl="papan pemantauan khusus" href="https://www.detik.com/tag/papan-pemantauan-khusus/">papan pemantauan khusus</a>				<a class="nav__item" dtr-evt="tag" dtr-sec="" dtr-act="tag" onclick="_pt(this)" dtr-idx=" 2" dtr-ttl="saham" href="https://www.detik.com/tag/saham/">saham</a>				<a class="nav__item" dtr-evt="tag" dtr-sec="" dtr-act="tag" onclick="_pt(this)" dtr-idx=" 3" dtr-ttl="bei" href="https://www.detik.com/tag/bei/">bei</a>            </div>
+        </div>
+
+    </div>
+    <!-- S:skyscraper --><style>
+.skybanner {
+width: 160px;
+}
+</style>
+
+<div class="skybanner">
+<div class="sticky">
+<div class="skybanner_container">
+
+<!-- /4905536/detik_desktop/finance/skyscrapper -->
+<div id="div-gpt-ad-1610072077615-0"><iframe id="google_ads_iframe_/4905536/detik_desktop/finance/skyscrapper_1" srcdoc="<body></body>" width="0" height="0" data-load-complete="true" data-google-container-id="true" sandbox="" style="position: absolute; width: 0px; height: 0px; left: 0px; right: 0px; z-index: -1; border: 0px;"></iframe></div>
+
+
+</div>
+</div>
+</div><!-- E:skyscraper --></div>
+
+<!-- S:newstag --><!-- S:Revive -->
+<div class="newstag" style="margin-bottom: 10px;">
+<ins data-labelname="newstag" data-revive-zoneid="683" data-revive-id="0cceecb9cae9f51a31123c541910d59b"></ins>
+</div>
+<!-- E:Revive -->
+
+<!-- S:GAM -->
+<!-- /4905536/detik_desktop/finance/newstag -->
+<div id="div-gpt-ad-1621398485130-0"><iframe id="google_ads_iframe_/4905536/detik_desktop/finance/newstag_1" srcdoc="<body></body>" width="0" height="0" data-load-complete="true" data-google-container-id="true" sandbox="" style="position: absolute; width: 0px; height: 0px; left: 0px; right: 0px; z-index: -1; border: 0px;"></iframe></div>
+<!-- E:GAM --><!-- E:newstag --><!-- S:hiddenquiz --><!-- S:Revive -->
+<ins data-labelname="hiddenquiz" data-revive-zoneid="2417" data-revive-id="0cceecb9cae9f51a31123c541910d59b"></ins>
+<!-- E:Revive -->
+
+<!-- S:GAM -->
+<div id="banner_hidden_quiz"></div>
+<!-- /4905536/detik_desktop/finance/hiddenquiz -->
+<div id="div-gpt-ad-1605759088597-0" style="width: 1px; height: 1px;"><iframe id="google_ads_iframe_/4905536/detik_desktop/finance/hiddenquiz_1" srcdoc="<body></body>" width="0" height="0" data-load-complete="true" data-google-container-id="true" sandbox="" style="position: absolute; width: 0px; height: 0px; left: 0px; right: 0px; z-index: -1; border: 0px;"></iframe></div>
+<!-- E:GAM --><!-- E:hiddenquiz -->
+            </article>
+
+            <!-- S:partner_box --> <!-- E:partner_box -->
+            <div d-widget="newsfeed_recommendation" d-recommendation="" d-loaded="1" d-recsource="bytedance" style=""><div class="box cb-rekomendasi">
+    <div class="box__header">
+        <div class="box__title">Rekomendasi untuk Anda</div>
+        <a dtr-evt="lihat selengkapnya rekomendasi" dtr-sec="lihat selengkapnya" dtr-act="lihat selengkapnya" onclick="_pt(this)" href="https://www.detik.com/rekomendasi" class="font-xxs">Selengkapnya <i class="icon icon-chevron-right"></i></a>
+    </div>
+    <div class="grid-row list-content list-content--column">
+                <article class="list-content__item column-4 recommendation_firstrow" id="rec_loop_0">
+            <div class="media media--image-radius block-link">
+                <div class="media__image">
+                <a href="https://wolipop.detik.com/entertainment-news/d-7081866/gaya-seksi-jennifer-dunn-pamer-tato-pakai-dress-backless-mesra-bareng-suami?bytedance=true" class="media__link rec_link_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="1" dtr-ttl="Gaya Seksi Jennifer Dunn Pamer Tato Pakai Dress Backless, Mesra Bareng Suami" dtr-id="7081866" dtr-src="bytedance" d-collected="7081866beritarekomendasi">
+                    <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/10/jennifer-dunn_169.png?w=250&amp;q=90&quot;);">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/10/jennifer-dunn_169.png?w=250&amp;q=90" title="Gaya Seksi Jennifer Dunn Pamer Tato Pakai Dress Backless, Mesra Bareng Suami" alt="Gaya Seksi Jennifer Dunn Pamer Tato Pakai Dress Backless, Mesra Bareng Suami" class="" style="display: none;">
+                    </span>
+                </a>
+                </div>
+                <div class="media__text">
+                    <div class="media__subtitle rec_subtitle_itp">Wolipop</div>
+                    <div class="media__title">
+                        <a href="https://wolipop.detik.com/entertainment-news/d-7081866/gaya-seksi-jennifer-dunn-pamer-tato-pakai-dress-backless-mesra-bareng-suami?bytedance=true" class="media__link rec_link_itp rec_title_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="1" dtr-ttl="Gaya Seksi Jennifer Dunn Pamer Tato Pakai Dress Backless, Mesra Bareng Suami" dtr-id="7081866" dtr-src="bytedance">Gaya Seksi Jennifer Dunn Pamer Tato Pakai Dress Backless, Mesra Bareng Suami</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+                <article class="list-content__item column-4 recommendation_firstrow" id="rec_loop_1">
+            <div class="media media--image-radius block-link">
+                <div class="media__image">
+                <a href="https://health.detik.com/true-story/d-7082299/binaragawan-kecanduan-narkoba-penampilan-terbarunya-bikin-ngelus-dada?bytedance=true" class="media__link rec_link_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="2" dtr-ttl="Binaragawan Kecanduan Narkoba, Penampilan Terbarunya Bikin Ngelus Dada" dtr-id="7082299" dtr-src="bytedance" d-collected="7082299beritarekomendasi">
+                    <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/10/binaragawan-kecanduan-narkoba-penampilan-terbarunya-bikin-ngelus-dada_169.png?w=250&amp;q=90&quot;);">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/10/binaragawan-kecanduan-narkoba-penampilan-terbarunya-bikin-ngelus-dada_169.png?w=250&amp;q=90" title="Binaragawan Kecanduan Narkoba, Penampilan Terbarunya Bikin Ngelus Dada" alt="Binaragawan Kecanduan Narkoba, Penampilan Terbarunya Bikin Ngelus Dada" class="" style="display: none;">
+                    </span>
+                </a>
+                </div>
+                <div class="media__text">
+                    <div class="media__subtitle rec_subtitle_itp">detikHealth</div>
+                    <div class="media__title">
+                        <a href="https://health.detik.com/true-story/d-7082299/binaragawan-kecanduan-narkoba-penampilan-terbarunya-bikin-ngelus-dada?bytedance=true" class="media__link rec_link_itp rec_title_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="2" dtr-ttl="Binaragawan Kecanduan Narkoba, Penampilan Terbarunya Bikin Ngelus Dada" dtr-id="7082299" dtr-src="bytedance">Binaragawan Kecanduan Narkoba, Penampilan Terbarunya Bikin Ngelus Dada</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+                <article class="list-content__item column-4 recommendation_firstrow" id="rec_loop_2">
+            <div class="media media--image-radius block-link">
+                <div class="media__image">
+                <a href="https://food.detik.com/info-sehat/d-7074866/bapak-bapak-rutin-konsumsi-5-makanan-ini-agar-ereksi-lebih-lama-dan-kuat?bytedance=true" class="media__link rec_link_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="3" dtr-ttl="Bapak-bapak! Rutin Konsumsi 5 Makanan Ini Agar Ereksi Lebih Lama dan Kuat" dtr-id="7074866" dtr-src="bytedance" d-collected="7074866beritarekomendasi">
+                    <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2021/08/26/diet-mediterania-untuk-disfungsi-ereksi-1_169.jpeg?w=250&amp;q=90&quot;);">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2021/08/26/diet-mediterania-untuk-disfungsi-ereksi-1_169.jpeg?w=250&amp;q=90" title="Bapak-bapak! Rutin Konsumsi 5 Makanan Ini Agar Ereksi Lebih Lama dan Kuat" alt="Bapak-bapak! Rutin Konsumsi 5 Makanan Ini Agar Ereksi Lebih Lama dan Kuat" class="" style="display: none;">
+                    </span>
+                </a>
+                </div>
+                <div class="media__text">
+                    <div class="media__subtitle rec_subtitle_itp">detikFood</div>
+                    <div class="media__title">
+                        <a href="https://food.detik.com/info-sehat/d-7074866/bapak-bapak-rutin-konsumsi-5-makanan-ini-agar-ereksi-lebih-lama-dan-kuat?bytedance=true" class="media__link rec_link_itp rec_title_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="3" dtr-ttl="Bapak-bapak! Rutin Konsumsi 5 Makanan Ini Agar Ereksi Lebih Lama dan Kuat" dtr-id="7074866" dtr-src="bytedance">Bapak-bapak! Rutin Konsumsi 5 Makanan Ini Agar Ereksi Lebih Lama dan Kuat</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+                <article class="list-content__item column-4 recommendation_secondrow" id="rec_loop_3">
+            <div class="media media--image-radius block-link">
+                <div class="media__image">
+                <a href="https://food.detik.com/foto-kuliner/d-7084358/betharia-sonata-ibunda-leon-dozan-yang-suka-kulineran-di-luar-negeri?bytedance=true" class="media__link rec_link_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="4" dtr-ttl="Betharia Sonata, Ibunda Leon Dozan yang Suka Kulineran di Luar Negeri" dtr-id="7084358" dtr-src="bytedance" d-collected="7084358beritarekomendasi">
+                    <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/11/betharia-sonata-ibunda-leon-dozan-yang-suka-kulineran-di-luar-negeri-3_169.jpeg?w=250&amp;q=90&quot;);">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/11/betharia-sonata-ibunda-leon-dozan-yang-suka-kulineran-di-luar-negeri-3_169.jpeg?w=250&amp;q=90" title="Betharia Sonata, Ibunda Leon Dozan yang Suka Kulineran di Luar Negeri" alt="Betharia Sonata, Ibunda Leon Dozan yang Suka Kulineran di Luar Negeri" class="" style="display: none;">
+                    </span>
+                </a>
+                </div>
+                <div class="media__text">
+                    <div class="media__subtitle rec_subtitle_itp">detikFood</div>
+                    <div class="media__title">
+                        <a href="https://food.detik.com/foto-kuliner/d-7084358/betharia-sonata-ibunda-leon-dozan-yang-suka-kulineran-di-luar-negeri?bytedance=true" class="media__link rec_link_itp rec_title_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="4" dtr-ttl="Betharia Sonata, Ibunda Leon Dozan yang Suka Kulineran di Luar Negeri" dtr-id="7084358" dtr-src="bytedance">Betharia Sonata, Ibunda Leon Dozan yang Suka Kulineran di Luar Negeri</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+                <article class="list-content__item column-4 recommendation_secondrow" id="rec_loop_4">
+            <div class="media media--image-radius block-link">
+                <div class="media__image">
+                <a href="https://food.detik.com/foto-kuliner/d-7082363/gaya-ivan-gunawan-desainer-baju-pengantin-adiba-khanza-saat-makan-di-restoran?bytedance=true" class="media__link rec_link_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="5" dtr-ttl="Gaya Ivan Gunawan, Desainer Baju Pengantin Adiba Khanza Saat Makan di Restoran" dtr-id="7082363" dtr-src="bytedance" d-collected="7082363beritarekomendasi">
+                    <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/10/gaya-ivan-gunawan-desainer-baju-pengantin-adiba-khanza-saat-makan-di-restoran-3_169.jpeg?w=250&amp;q=90&quot;);">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/10/gaya-ivan-gunawan-desainer-baju-pengantin-adiba-khanza-saat-makan-di-restoran-3_169.jpeg?w=250&amp;q=90" title="Gaya Ivan Gunawan, Desainer Baju Pengantin Adiba Khanza Saat Makan di Restoran" alt="Gaya Ivan Gunawan, Desainer Baju Pengantin Adiba Khanza Saat Makan di Restoran" class="" style="display: none;">
+                    </span>
+                </a>
+                </div>
+                <div class="media__text">
+                    <div class="media__subtitle rec_subtitle_itp">detikFood</div>
+                    <div class="media__title">
+                        <a href="https://food.detik.com/foto-kuliner/d-7082363/gaya-ivan-gunawan-desainer-baju-pengantin-adiba-khanza-saat-makan-di-restoran?bytedance=true" class="media__link rec_link_itp rec_title_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="5" dtr-ttl="Gaya Ivan Gunawan, Desainer Baju Pengantin Adiba Khanza Saat Makan di Restoran" dtr-id="7082363" dtr-src="bytedance">Gaya Ivan Gunawan, Desainer Baju Pengantin Adiba Khanza Saat Makan di Restoran</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+                <article class="list-content__item column-4 recommendation_secondrow" id="rec_loop_5">
+            <div class="media media--image-radius block-link">
+                <div class="media__image">
+                <a href="https://news.detik.com/pemilu/d-7078363/jawaban-ade-armando-usai-diultimatum-kaesang-untuk-keluar-psi?bytedance=true" class="media__link rec_link_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="6" dtr-ttl="Jawaban Ade Armando Usai Diultimatum Kaesang untuk Keluar PSI" dtr-id="7078363" dtr-src="bytedance" d-collected="7078363beritarekomendasi">
+                    <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/08/09/ade-armando_169.jpeg?w=250&amp;q=90&quot;);">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2023/08/09/ade-armando_169.jpeg?w=250&amp;q=90" title="Jawaban Ade Armando Usai Diultimatum Kaesang untuk Keluar PSI" alt="Jawaban Ade Armando Usai Diultimatum Kaesang untuk Keluar PSI" class="" style="display: none;">
+                    </span>
+                </a>
+                </div>
+                <div class="media__text">
+                    <div class="media__subtitle rec_subtitle_itp">detikNews</div>
+                    <div class="media__title">
+                        <a href="https://news.detik.com/pemilu/d-7078363/jawaban-ade-armando-usai-diultimatum-kaesang-untuk-keluar-psi?bytedance=true" class="media__link rec_link_itp rec_title_itp" onclick="_pt(this)" dtr-evt="berita rekomendasi" dtr-sec="" dtr-act="berita rekomendasi" dtr-idx="6" dtr-ttl="Jawaban Ade Armando Usai Diultimatum Kaesang untuk Keluar PSI" dtr-id="7078363" dtr-src="bytedance">Jawaban Ade Armando Usai Diultimatum Kaesang untuk Keluar PSI</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+            </div>
+</div>
+</div>
+
+            <div class="box cb-berita-terkait">
+    <div class="box__header">
+        <div class="box__title">Berita Terkait</div>
+    </div>
+    <div id="bt_tkt" class="list-content list-content--column grid-row">
+                <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="1" dtr-id="7084963" dtr-ttl="TikTok Shop Buka Lagi, Saham GOTO Terbang Hari Ini" href="https://finance.detik.com/bursa-dan-valas/d-7084963/tiktok-shop-buka-lagi-saham-goto-terbang-hari-ini" d-collected="7084963beritaterkait">
+                    TikTok Shop Buka Lagi, Saham GOTO Terbang Hari Ini                </a>
+            </h3>
+        </article>
+                <!-- S:nativeberitaterkait --><ins data-labelname="nativeberitaterkait" data-revive-zoneid="2458" data-revive-id="0cceecb9cae9f51a31123c541910d59b"></ins><!-- E:nativeberitaterkait -->                        <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="2" dtr-id="7084726" dtr-ttl="Alhamdulillah, IHSG Menguat di Level 7.112" href="https://finance.detik.com/bursa-dan-valas/d-7084726/alhamdulillah-ihsg-menguat-di-level-7-112" d-collected="7084726beritaterkait">
+                    Alhamdulillah, IHSG Menguat di Level 7.112                </a>
+            </h3>
+        </article>
+                        <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="3" dtr-id="7077391" dtr-ttl="Ada Kabar TikTok Investasi di Tokopedia, BEI Minta Penjelasan GOTO" href="https://finance.detik.com/bursa-dan-valas/d-7077391/ada-kabar-tiktok-investasi-di-tokopedia-bei-minta-penjelasan-goto" d-collected="7077391beritaterkait">
+                    Ada Kabar TikTok Investasi di Tokopedia, BEI Minta Penjelasan GOTO                </a>
+            </h3>
+        </article>
+                        <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="4" dtr-id="7074604" dtr-ttl="Pagi Ini IHSG Balik ke Level 7.100" href="https://finance.detik.com/bursa-dan-valas/d-7074604/pagi-ini-ihsg-balik-ke-level-7-100" d-collected="7074604beritaterkait">
+                    Pagi Ini IHSG Balik ke Level 7.100                </a>
+            </h3>
+        </article>
+                        <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="5" dtr-id="6968555" dtr-ttl="Tim Cook Dapat Rp 639 Miliar dari Jual Saham Apple" href="https://inet.detik.com/consumer/d-6968555/tim-cook-dapat-rp-639-miliar-dari-jual-saham-apple" d-collected="6968555beritaterkait">
+                    Tim Cook Dapat Rp 639 Miliar dari Jual Saham Apple                </a>
+            </h3>
+        </article>
+                        <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="6" dtr-id="6834745" dtr-ttl="Pelajar Berjaya di Pasar Modal, Cek Tips Aman Berinvestasi!" href="https://www.detik.com/edu/detikpedia/d-6834745/pelajar-berjaya-di-pasar-modal-cek-tips-aman-berinvestasi" d-collected="6834745beritaterkait">
+                    Pelajar Berjaya di Pasar Modal, Cek Tips Aman Berinvestasi!                </a>
+            </h3>
+        </article>
+                        <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="7" dtr-id="6801193" dtr-ttl="Apple Perusahaan Publik Pertama yang Bernilai Rp 45 Ribu Triliun" href="https://inet.detik.com/business/d-6801193/apple-perusahaan-publik-pertama-yang-bernilai-rp-45-ribu-triliun" d-collected="6801193beritaterkait">
+                    Apple Perusahaan Publik Pertama yang Bernilai Rp 45 Ribu Triliun                </a>
+            </h3>
+        </article>
+                        <article class="list-content__item column-6">
+            <h3 class="list-content__title">
+                <a dtr-evt="berita terkait" dtr-sec="" dtr-act="berita terkait" onclick="_pt(this)" dtr-idx="8" dtr-id="6762011" dtr-ttl="Haris Azhar Bantah Minta Saham ke Luhut, Begini Penjelasannya" href="https://news.detik.com/berita/d-6762011/haris-azhar-bantah-minta-saham-ke-luhut-begini-penjelasannya" d-collected="6762011beritaterkait">
+                    Haris Azhar Bantah Minta Saham ke Luhut, Begini Penjelasannya                </a>
+            </h3>
+        </article>
+                    </div>
+</div>
+<script type="text/javascript">
+    $(document).on('DOMSubtreeModified', '#bt_tkt', function() {
+        var artikel_terkait = $("#bt_tkt").find('article');
+        if (artikel_terkait.length > 8) {
+            artikel_terkait.last().hide()
+        }
+    })
+</script>
+
+            <div class="box cb-artikel-lainnya">
+ <div class="box__header">
+ <div class="box__title">Berita detikcom Lainnya</div>
+ </div>
+ <div id="bt_l" class="grid-row list-content list-content--column">
+ 
+ <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="1" dtr-id="7085154" dtr-ttl="12 Tim Sudah Lolos ke 16 Besar Liga Champions, 4 Tempat Tersisa" href="https://sport.detik.com/sepakbola/uefa/d-7085154/12-tim-sudah-lolos-ke-16-besar-liga-champions-4-tempat-tersisa" class="media__link" d-collected="7085154boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2018/05/28/a9d084f2-9e11-4bb7-a85c-b1e9428f700e_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/05/28/a9d084f2-9e11-4bb7-a85c-b1e9428f700e_169.jpeg?w=200&amp;q=90" alt="12 Tim Sudah Lolos ke 16 Besar Liga Champions, 4 Tempat Tersisa" title="12 Tim Sudah Lolos ke 16 Besar Liga Champions, 4 Tempat Tersisa" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">Sepakbola</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="1" dtr-id="7085154" dtr-ttl="12 Tim Sudah Lolos ke 16 Besar Liga Champions, 4 Tempat Tersisa" href="https://sport.detik.com/sepakbola/uefa/d-7085154/12-tim-sudah-lolos-ke-16-besar-liga-champions-4-tempat-tersisa" class="media__link">
+ 12 Tim Sudah Lolos ke 16 Besar Liga Champions, 4 Tempat Tersisa </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ 
+ <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="2" dtr-id="7085659" dtr-ttl="Nestle PHK Karyawan Pabrik Pasuruan, Klaim Beri Pesangon Gede" href="https://finance.detik.com/berita-ekonomi-bisnis/d-7085659/nestle-phk-karyawan-pabrik-pasuruan-klaim-beri-pesangon-gede" class="media__link" d-collected="7085659boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2018/12/18/6e8be315-0072-4b2b-af0b-13e2c17e2336_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2018/12/18/6e8be315-0072-4b2b-af0b-13e2c17e2336_169.jpeg?w=200&amp;q=90" alt="Nestle PHK Karyawan Pabrik Pasuruan, Klaim Beri Pesangon Gede" title="Nestle PHK Karyawan Pabrik Pasuruan, Klaim Beri Pesangon Gede" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">detikFinance</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="2" dtr-id="7085659" dtr-ttl="Nestle PHK Karyawan Pabrik Pasuruan, Klaim Beri Pesangon Gede" href="https://finance.detik.com/berita-ekonomi-bisnis/d-7085659/nestle-phk-karyawan-pabrik-pasuruan-klaim-beri-pesangon-gede" class="media__link">
+ Nestle PHK Karyawan Pabrik Pasuruan, Klaim Beri Pesangon Gede </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ <!-- S:nativenewsfeed1 --><ins data-labelname="nativenewsfeed1" data-revive-zoneid="278" data-revive-id="0cceecb9cae9f51a31123c541910d59b"></ins><!-- E:nativenewsfeed1 --> 
+ <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="3" dtr-id="7085449" dtr-ttl="6 Foto Gaya Pasutri Baru Arhan &amp; Azizah Salsha Kondangan ke Nikahan Egy-Adiba" href="https://wolipop.detik.com/foto-entertainment/d-7085449/6-foto-gaya-pasutri-baru-arhan-azizah-salsha-kondangan-ke-nikahan-egy-adiba" class="media__link" d-collected="7085449boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/12/gaya-pratama-arhan-dan-azizah-salsha_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/12/gaya-pratama-arhan-dan-azizah-salsha_169.jpeg?w=200&amp;q=90" alt="6 Foto Gaya Pasutri Baru Arhan &amp; Azizah Salsha Kondangan ke Nikahan Egy-Adiba" title="6 Foto Gaya Pasutri Baru Arhan &amp; Azizah Salsha Kondangan ke Nikahan Egy-Adiba" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">Wolipop</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="3" dtr-id="7085449" dtr-ttl="6 Foto Gaya Pasutri Baru Arhan &amp; Azizah Salsha Kondangan ke Nikahan Egy-Adiba" href="https://wolipop.detik.com/foto-entertainment/d-7085449/6-foto-gaya-pasutri-baru-arhan-azizah-salsha-kondangan-ke-nikahan-egy-adiba" class="media__link">
+ 6 Foto Gaya Pasutri Baru Arhan &amp; Azizah Salsha Kondangan ke Nikahan Egy-Adiba </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ 
+ <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="4" dtr-id="7085338" dtr-ttl="Piala Asia 2023: PSSI Sudah Daftarkan 50 Nama Pemain Timnas Indonesia" href="https://sport.detik.com/sepakbola/liga-indonesia/d-7085338/piala-asia-2023-pssi-sudah-daftarkan-50-nama-pemain-timnas-indonesia" class="media__link" d-collected="7085338boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/11/21/filipina-vs-indonesiatimnas-indonesiatimnas-filipinakualifikasi-piala-dunia-2026-zona-asia-1_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2023/11/21/filipina-vs-indonesiatimnas-indonesiatimnas-filipinakualifikasi-piala-dunia-2026-zona-asia-1_169.jpeg?w=200&amp;q=90" alt="Piala Asia 2023: PSSI Sudah Daftarkan 50 Nama Pemain Timnas Indonesia" title="Piala Asia 2023: PSSI Sudah Daftarkan 50 Nama Pemain Timnas Indonesia" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">Sepakbola</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="4" dtr-id="7085338" dtr-ttl="Piala Asia 2023: PSSI Sudah Daftarkan 50 Nama Pemain Timnas Indonesia" href="https://sport.detik.com/sepakbola/liga-indonesia/d-7085338/piala-asia-2023-pssi-sudah-daftarkan-50-nama-pemain-timnas-indonesia" class="media__link">
+ Piala Asia 2023: PSSI Sudah Daftarkan 50 Nama Pemain Timnas Indonesia </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ 
+ <!-- S:nativenewsfeed2 --> <!-- E:nativenewsfeed2 --> <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="5" dtr-id="7085287" dtr-ttl="Geger Sekeluarga di Malang Ditemukan Tewas dalam Rumah" href="https://news.detik.com/berita/d-7085287/geger-sekeluarga-di-malang-ditemukan-tewas-dalam-rumah" class="media__link" d-collected="7085287boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/12/guru-sd-di-malang-bunuh-istri-dan-anak-1_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/12/guru-sd-di-malang-bunuh-istri-dan-anak-1_169.jpeg?w=200&amp;q=90" alt="Geger Sekeluarga di Malang Ditemukan Tewas dalam Rumah" title="Geger Sekeluarga di Malang Ditemukan Tewas dalam Rumah" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">detikNews</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="5" dtr-id="7085287" dtr-ttl="Geger Sekeluarga di Malang Ditemukan Tewas dalam Rumah" href="https://news.detik.com/berita/d-7085287/geger-sekeluarga-di-malang-ditemukan-tewas-dalam-rumah" class="media__link">
+ Geger Sekeluarga di Malang Ditemukan Tewas dalam Rumah </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ 
+ <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="6" dtr-id="7085260" dtr-ttl="Mengenal Fungsi Penting Stasiun Kendali Bumi Satria-1 di Banjarbaru" href="https://inet.detik.com/telecommunication/d-7085260/mengenal-fungsi-penting-stasiun-kendali-bumi-satria-1-di-banjarbaru" class="media__link" d-collected="7085260boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/11/stasiun-kendali-bumi-satria-1-di-banjarbaru-37_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/11/stasiun-kendali-bumi-satria-1-di-banjarbaru-37_169.jpeg?w=200&amp;q=90" alt="Mengenal Fungsi Penting Stasiun Kendali Bumi Satria-1 di Banjarbaru" title="Mengenal Fungsi Penting Stasiun Kendali Bumi Satria-1 di Banjarbaru" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">detikInet</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="6" dtr-id="7085260" dtr-ttl="Mengenal Fungsi Penting Stasiun Kendali Bumi Satria-1 di Banjarbaru" href="https://inet.detik.com/telecommunication/d-7085260/mengenal-fungsi-penting-stasiun-kendali-bumi-satria-1-di-banjarbaru" class="media__link">
+ Mengenal Fungsi Penting Stasiun Kendali Bumi Satria-1 di Banjarbaru </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ 
+ <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="7" dtr-id="7085063" dtr-ttl="Sedap! Ini 5 Coto Makassar yang Rasanya Autentik di Jakarta" href="https://food.detik.com/info-kuliner/d-7085063/sedap-ini-5-coto-makassar-yang-rasanya-autentik-di-jakarta" class="media__link" d-collected="7085063boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/02/24/coto-makassar-senen-syamsul-daeng-ngawing-3_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2023/02/24/coto-makassar-senen-syamsul-daeng-ngawing-3_169.jpeg?w=200&amp;q=90" alt="Sedap! Ini 5 Coto Makassar yang Rasanya Autentik di Jakarta" title="Sedap! Ini 5 Coto Makassar yang Rasanya Autentik di Jakarta" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">detikFood</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="7" dtr-id="7085063" dtr-ttl="Sedap! Ini 5 Coto Makassar yang Rasanya Autentik di Jakarta" href="https://food.detik.com/info-kuliner/d-7085063/sedap-ini-5-coto-makassar-yang-rasanya-autentik-di-jakarta" class="media__link">
+ Sedap! Ini 5 Coto Makassar yang Rasanya Autentik di Jakarta </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ 
+ <article class="list-content__item column-3">
+ <div class="media media--image-radius">
+ <div class="media__image">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="8" dtr-id="7085043" dtr-ttl="Saat Kanal Cantik Venesia Berubah Jadi Hijau, Ulah Siapa?" href="https://travel.detik.com/travel-news/d-7085043/saat-kanal-cantik-venesia-berubah-jadi-hijau-ulah-siapa" class="media__link" d-collected="7085043boxberitadetikcomlainnya">
+ <span class="ratiobox ratiobox--16-9 lqd" style="background-image: url(&quot;https://akcdn.detik.net.id/community/media/visual/2023/12/10/aktivis-iklim-bikin-air-kanal-venesia-hijau-protes-ktt-cop28-4_169.jpeg?w=200&amp;q=90&quot;);">
+ <img src="https://akcdn.detik.net.id/community/media/visual/2023/12/10/aktivis-iklim-bikin-air-kanal-venesia-hijau-protes-ktt-cop28-4_169.jpeg?w=200&amp;q=90" alt="Saat Kanal Cantik Venesia Berubah Jadi Hijau, Ulah Siapa?" title="Saat Kanal Cantik Venesia Berubah Jadi Hijau, Ulah Siapa?" class="" style="display: none;" pinger-seen="true"> </span>
+ </a>
+ </div>
+ <div class="media__text">
+ <div class="media__subtitle">detikTravel</div>
+ <div class="media__title">
+ <a dtr-evt="box berita detikcom lainnya" dtr-sec="" dtr-act="artikel" onclick="_pt(this)" dtr-idx="8" dtr-id="7085043" dtr-ttl="Saat Kanal Cantik Venesia Berubah Jadi Hijau, Ulah Siapa?" href="https://travel.detik.com/travel-news/d-7085043/saat-kanal-cantik-venesia-berubah-jadi-hijau-ulah-siapa" class="media__link">
+ Saat Kanal Cantik Venesia Berubah Jadi Hijau, Ulah Siapa? </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ </div>
+</div>
+<script type="text/javascript">
+ $(document).on('DOMSubtreeModified', '#bt_l', function() {
+ var btl = $("#bt_l").find('article');
+ if (btl.length == 10) {
+ btl.last().hide()
+ btl.eq(-2).hide()
+ } else if (btl.length == 9) {
+ btl.last().hide()
+ }
+ })
+</script>
+<!--cached @ 1702373117--><!--replaced--><!--0-->
+            <div class="box komentar_box" id="comm1">
+                <!--S:KOMENTAR-->
+
+    <div id="thecomment2" class="detail_area"><div id="zoid-comment-component-uid_54cb12aa84_mdk6mjc6mza" style="height: 676px;"><iframe allowtransparency="true" name="__zoid__comment_component__eyJzZW5kZXIiOnsiZG9tYWluIjoiaHR0cHM6Ly9maW5hbmNlLmRldGlrLmNvbSJ9LCJtZXRhRGF0YSI6eyJ3aW5kb3dSZWYiOnsidHlwZSI6InBhcmVudCIsImRpc3RhbmNlIjowfX0sInJlZmVyZW5jZSI6eyJ0eXBlIjoicmF3IiwidmFsIjoie1widWlkXCI6XCJ6b2lkLWNvbW1lbnQtY29tcG9uZW50LXVpZF81NGNiMTJhYTg0X21kazZtamM2bXphXCIsXCJjb250ZXh0XCI6XCJpZnJhbWVcIixcInRhZ1wiOlwiY29tbWVudC1jb21wb25lbnRcIixcImNoaWxkRG9tYWluTWF0Y2hcIjpcImh0dHBzOi8vY29tbWVudC5kZXRpay5jb21cIixcInZlcnNpb25cIjpcIjlfMF84NlwiLFwicHJvcHNcIjp7XCJ1cmxcIjpcImh0dHBzOi8vZmluYW5jZS5kZXRpay5jb20vYnVyc2EtZGFuLXZhbGFzL2QtNjU0NDUzMC9hd2FzLWluaS1zYWhhbS1zYWhhbS15YW5nLWJpc2EtYW5qbG9rLWhpbmdnYS1ycC0xXCIsXCJpZEFydGlrZWxcIjo2NTQ0NTMwLFwia2FuYWxcIjo2LFwiZGF0ZVwiOlwiMzEtMDEtMjAyM1wiLFwidGl0bGVcIjpcIkF3YXMhIEluaSBTYWhhbS1zYWhhbSB5YW5nIEJpc2EgQW5qbG9rIGhpbmdnYSBScCAxXCIsXCJjbGllbnRJZFwiOjI5LFwicHJlZml4XCI6XCJkdGtcIixcInByb2tvbnRyYVwiOjAsXCJwZW1idWthRGlza3VzaVwiOlwiXCIsXCJrYW5hbEFkc1wiOlwiZGV0aWtfZmluYW5jZVwiLFwiZW52QWRzXCI6XCJkZXNrdG9wXCIsXCJvbkxvZ2luXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfOWI0MTVlZjlkM19tZGs2bWpjNm16YVwiLFwibmFtZVwiOlwib25Mb2dpblwifX0sXCJvblJlc2l6ZVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2ExNjVmOTA0OTdfbWRrNm1qYzZtemFcIixcIm5hbWVcIjpcIm9uUmVzaXplXCJ9fSxcIm9uU2Nyb2xsXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfMWFjNWYwNmQ2OV9tZGs2bWpjNm16YVwiLFwibmFtZVwiOlwib25TY3JvbGxcIn19LFwib25BbGVydFwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2ZjNmMwY2NkZDZfbWRrNm1qYzZtemFcIixcIm5hbWVcIjpcIm9uQWxlcnRcIn19LFwiY3NwTm9uY2VcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwic2hvd2hpZGVcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwibGFiZWxfMVwiOlwiUHJvXCIsXCJsYWJlbF8yXCI6XCJLb250cmFcIixcImRhdGFfb2FcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwidXJsX3NoYXJlXCI6XCJodHRwczovL2ZpbmFuY2UuZGV0aWsuY29tL2J1cnNhLWRhbi12YWxhcy9kLTY1NDQ1MzAvYXdhcy1pbmktc2FoYW0tc2FoYW0teWFuZy1iaXNhLWFuamxvay1oaW5nZ2EtcnAtMVwiLFwiY3VycmVudF91cmxcIjpcImh0dHBzOi8vZmluYW5jZS5kZXRpay5jb20vYnVyc2EtZGFuLXZhbGFzL2QtNjU0NDUzMC9hd2FzLWluaS1zYWhhbS1zYWhhbS15YW5nLWJpc2EtYW5qbG9rLWhpbmdnYS1ycC0xXCIsXCJyZWRpcmVjdF91cmxcIjpcImh0dHBzOi8vZmluYW5jZS5kZXRpay5jb20vYnVyc2EtZGFuLXZhbGFzL2QtNjU0NDUzMC9hd2FzLWluaS1zYWhhbS1zYWhhbS15YW5nLWJpc2EtYW5qbG9rLWhpbmdnYS1ycC0xXCIsXCJzbmVha1BlZWtcIjowLFwiaGFzaFwiOlwiXCIsXCJndG1DdXN0b21cIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9jYjJmYmYxMTA4X21kazZtamM2bXphXCIsXCJuYW1lXCI6XCJndG1DdXN0b21cIn19fSxcImV4cG9ydHNcIjp7XCJpbml0XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfZGM0MTJkM2QyMl9tZGs2bWpjNm16YVwiLFwibmFtZVwiOlwiaW5pdFwifX0sXCJjbG9zZVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzMxYmM3ZWU3YzJfbWRrNm1qYzZtemFcIixcIm5hbWVcIjpcImNsb3NlOjptZW1vaXplZFwifX0sXCJjaGVja0Nsb3NlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfODczNWZmNjQ3YV9tZGs2bWpjNm16YVwiLFwibmFtZVwiOlwiY2hlY2tDbG9zZVwifX0sXCJyZXNpemVcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF80NDkyZmI1YmM5X21kazZtamM2bXphXCIsXCJuYW1lXCI6XCJlZVwifX0sXCJvbkVycm9yXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfYjhhNjQzNzk4NF9tZGs2bWpjNm16YVwiLFwibmFtZVwiOlwiY2VcIn19LFwic2hvd1wiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzcyNWMwM2I1MmFfbWRrNm1qYzZtemFcIixcIm5hbWVcIjpcIk5uXCJ9fSxcImhpZGVcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9lNDk0Y2Q4OTNiX21kazZtamM2bXphXCIsXCJuYW1lXCI6XCJBblwifX0sXCJleHBvcnRcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF81N2QyODI5OTVmX21kazZtamM2bXphXCIsXCJuYW1lXCI6XCJkZVwifX19fSJ9fQ__" title="comment_component" id="uid_739fed4df5_mdk6mjc6mza" class="zoid-visible" style="background-color: transparent; border: none;"></iframe><style>
+            #zoid-comment-component-uid_54cb12aa84_mdk6mjc6mza {
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+
+            #zoid-comment-component-uid_54cb12aa84_mdk6mjc6mza > iframe {
+                display: inline-block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                transition: opacity .2s ease-in-out;
+            }
+
+            #zoid-comment-component-uid_54cb12aa84_mdk6mjc6mza > iframe.zoid-invisible {
+                opacity: 0;
+            }
+
+            #zoid-comment-component-uid_54cb12aa84_mdk6mjc6mza > iframe.zoid-visible {
+                opacity: 1;
+        }
+        </style><iframe name="__detect_close_uid_bbe518cbeb_mdk6mjc6mza__" style="display: none;"></iframe></div></div>
+
+    <!-- S: NEW PRO KONTRA -->
+
+    <script type="text/javascript">
+    getScript("https://cdn.detik.net.id/libs/comment/v2/js/zoid.min.js?2023121216", function(){
+        getScript("https://cdn.detik.net.id/libs/comment/v2/js/bridge.js?2023121216", function(){
+            CommentComponent({
+                url: "https://finance.detik.com/bursa-dan-valas/d-6544530/awas-ini-saham-saham-yang-bisa-anjlok-hingga-rp-1",
+                idArtikel: 6544530,
+                kanal: 6,
+                date: "31-01-2023",
+                title: "Awas! Ini Saham-saham yang Bisa Anjlok hingga Rp 1",
+                clientId: 29,
+                prefix: "dtk",
+                                prokontra: 0,
+                pembukaDiskusi: "",
+    
+    
+                    kanalAds: "detik_finance",
+                envAds: "desktop",
+                    onLogin,
+                onResize,
+                onScroll,
+                onAlert
+            }).render('#thecomment2');
+
+                            try {
+                    $('#thecomment2').attrchange({
+                        callback: function (e) {
+                            $(document.body).trigger("sticky_kit:recalc");
+                        }
+                    }).resizable();
+                } catch (e) {} finally {}
+                    })
+    })
+    </script>
+<!-- E: NEW PRO KONTRA -->
+<!--E:KOMENTAR-->
+            </div>
+        </div>

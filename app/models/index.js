@@ -5,6 +5,7 @@ import GoogleNews from './GoogleNews.js';
 import Perusahaan from './PERUSAHAAN.js';
 import Prospektus from './PROSPEKTUS.js';
 import Suspensi from './SUSPENSI.js';
+import TrustedWeb from './TrustedWeb.js';
 import UMA from './UMA.js';
 
 const synchronizeModels = async () => {
@@ -16,4 +17,4 @@ const synchronizeModels = async () => {
   }
 };
 
-export { UMA,Suspensi,GoogleNews,Perusahaan, Prospektus,FinancialReportRDF,FinancialReportRDA,synchronizeModels };
+export { TrustedWeb,UMA,Suspensi,GoogleNews,Perusahaan, Prospektus,FinancialReportRDF,FinancialReportRDA,synchronizeModels };

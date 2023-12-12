@@ -66,7 +66,7 @@ const saveData = async (data) => {
         await downloadFile(item.Prospectus, downloadFolder, fileName);
         const filePath = item.Prospectus.split('/').pop();;
         await Prospektus.create({
-            Tanggal : convertToTanggalBulan(item.UMADate),
+            Tanggal : convertToTanggalBulan(item.ListingDate),
             Judul : item.Description,
             Attachment: downloadFolder+"/"+filePath
         });
