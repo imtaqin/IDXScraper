@@ -1,4 +1,6 @@
 import DB from '../config/DB.js';
+import BrokerFinancialReport from './Broker.js';
+import BrokerDetail from './BrokerSummary.js';
 import FinancialReportRDA from './FReport.js';
 import FinancialReportRDF from './FReportRDF.js';
 import GoogleNews from './GoogleNews.js';
@@ -7,6 +9,7 @@ import Prospektus from './PROSPEKTUS.js';
 import Suspensi from './SUSPENSI.js';
 import TrustedWeb from './TrustedWeb.js';
 import UMA from './UMA.js';
+
 
 const synchronizeModels = async () => {
   try {
@@ -17,4 +20,4 @@ const synchronizeModels = async () => {
   }
 };
 
-export { TrustedWeb,UMA,Suspensi,GoogleNews,Perusahaan, Prospektus,FinancialReportRDF,FinancialReportRDA,synchronizeModels };
+export { BrokerDetail,BrokerFinancialReport,TrustedWeb,UMA,Suspensi,GoogleNews,Perusahaan, Prospektus,FinancialReportRDF,FinancialReportRDA,synchronizeModels };

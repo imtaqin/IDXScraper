@@ -1,38 +1,17 @@
 {
-    "Search": {
-    "ReportType": "rda",
-    "KodeEmiten": null,
-    "Year": "2023",
-    "SortColumn": "KodeEmiten",
-    "SortOrder": "asc",
-    "EmitenType": "s",
-    "Periode": "tw1",
-    "indexfrom": 1,
-    "pagesize": 12
-    },
-    "ResultCount": 7,
-    "Results": [
-    {
-    "KodeEmiten": "ALMI",
-    "File_Modified": "2022-03-19T15:19:37.303",
-    "Report_Period": null,
-    "Report_Year": "2023",
-    "NamaEmiten": "Alumindo Light Metal Industry Tbk",
-    "Attachments": [
-    {
-    "Emiten_Code": "ALMI",
-    "File_ID": "5b39ee73-8da5-4217-a6e2-c0659bc82f53",
-    "File_Modified": "2022-03-19T15:19:37.303",
-    "File_Name": "Test-20220321_AHAP_Penyampaian Bukti Iklan_31068271_lamp1.pdf",
-    "File_Path": "/Portals/0/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202203/e7ad765ebb_37e6bab4e4.pdf",
-    "File_Size": 0,
-    "File_Type": ".pdf",
-    "Report_Period": null,
-    "Report_Type": "rda",
-    "Report_Year": "2023",
-    "NamaEmiten": "Alumindo Light Metal Industry Tbk"
-    }
+    "draw": 0,
+    "recordsTotal": 91,
+    "recordsFiltered": 91,
+    "data": [
+        {
+            "Code": "XC",
+            "Name": "AJAIB SEKURITAS ASIA",
+            "License": "Perantara Pedagang Efek"
+        },
+        {
+            "Code": "PP",
+            "Name": "ALDIRACITA SEKURITAS INDONESIA",
+            "License": "Penjamin Emisi Efek, Perantara Pedagang Efek"
+        }
     ]
-    }
-    ]
-    }
+}

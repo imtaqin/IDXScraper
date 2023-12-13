@@ -7,9 +7,10 @@ import { scrapeGoogleNews } from "./app/controller/googleNews.js";
 import cron from "node-cron";
 import { getUMA } from "./app/controller/getIDXUMA.js";
 import seedDatabase from "./app/lib/seedDomain.js";
+import { getBroker } from "./app/controller/getIDXBroker.js";
 
 synchronizeModels();
-scrapeGoogleNews("auto")
+seedDatabase();
 cron.schedule("0 12,17 * * *", () => {
   console.log(" ======== Mulai scrape Laporan Keuangan ================");
   getFinanceReportRDA();
@@ -35,6 +36,13 @@ cron.schedule("0 0 * * *", () => {
     " ======== Mulai scrape Unusual Market Activity (UMA) ================"
   );
   getUMA();
+});
+
+cron.schedule("0 0 * * *", () => {
+  console.log(
+    " ======== Mulai scrape Broker ================"
+  );
+  getBroker();
 });
 
 cron.schedule("0 0 * * *", () => {
